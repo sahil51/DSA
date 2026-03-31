@@ -1,9 +1,8 @@
-# DSA
-Consistent DSA practice using LeetCode | Daily problem solving | Python solutions with clean code &amp; explanations
-
 # 🧠 Data Structures & Algorithms (DSA) Streak 🚀
 
-This repository contains my daily practice of Data Structures and Algorithms using LeetCode.
+Consistent DSA practice using LeetCode | Daily problem solving | Python solutions with clean code & explanations
+
+---
 
 ## 🎯 Objective
 
@@ -16,10 +15,11 @@ This repository contains my daily practice of Data Structures and Algorithms usi
 
 ## 📅 Daily Streak
 
-| Day   | Problem           | Difficulty | Link                                             |
-| ----- | ----------------- | ---------- | ------------------------------------------------ |
-| Day 1 | Two Sum           | Easy       | https://leetcode.com/problems/two-sum/           |
-| Day 2 | Valid Parentheses | Easy       | https://leetcode.com/problems/valid-parentheses/ |
+| Day   | Problem            | Difficulty | Link                                              |
+| ----- | ------------------ | ---------- | ------------------------------------------------- |
+| Day 1 | Two Sum            | Easy       | https://leetcode.com/problems/two-sum/            |
+| Day 2 | Valid Parentheses  | Easy       | https://leetcode.com/problems/valid-parentheses/  |
+| Day 3 | Contains Duplicate | Easy       | https://leetcode.com/problems/contains-duplicate/ |
 
 ---
 
@@ -33,7 +33,6 @@ dsa/
 │── trees/
 │── graphs/
 │── dynamic_programming/
-│── daily/
 ```
 
 ---
@@ -57,10 +56,16 @@ dsa/
 
 ## 📈 Progress
 
-* Total Problems Solved: XX
-* Easy: XX
-* Medium: XX
-* Hard: XX
+![Total Solved](https://img.shields.io/badge/Total-3-blue)
+![Easy](https://img.shields.io/badge/Easy-3-brightgreen)
+![Medium](https://img.shields.io/badge/Medium-0-yellow)
+![Hard](https://img.shields.io/badge/Hard-0-red)
+
+---
+
+## 📊 LeetCode Stats
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_USERNAME)
 
 ---
 
@@ -78,17 +83,13 @@ This repository reflects my learning journey. Improvements and optimizations wil
 ---
 
 <!---LeetCode Topics Start-->
+
 # LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0217-contains-duplicate](https://github.com/sahil51/DSA/tree/main/0217-contains-duplicate/) | Easy |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0217-contains-duplicate](https://github.com/sahil51/DSA/tree/main/0217-contains-duplicate/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0217-contains-duplicate](https://github.com/sahil51/DSA/tree/main/0217-contains-duplicate/) | Easy |
+
+## DSA Questions
+
+| Problem Name                                                                                 | Difficulty |
+| -------------------------------------------------------------------------------------------- | ---------- |
+| [0217-contains-duplicate](https://github.com/sahil51/DSA/tree/main/0217-contains-duplicate/) | Easy       |
+
 <!---LeetCode Topics End-->
