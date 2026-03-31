@@ -76,3 +76,19 @@ Solving at least **one problem every day** to build discipline and long-term mas
 This repository reflects my learning journey. Improvements and optimizations will be updated over time.
 
 ---
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/sahil51/DSA/tree/main/0217-contains-duplicate/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/sahil51/DSA/tree/main/0217-contains-duplicate/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/sahil51/DSA/tree/main/0217-contains-duplicate/) | Easy |
+<!---LeetCode Topics End-->
