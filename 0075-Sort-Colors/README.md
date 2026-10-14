@@ -55,7 +55,7 @@ The array has one each of 0, 1, and 2, arranged in-place in the order 0, 1, 2.
 
 - **Language**: Python3
 - **Runtime**: 0 ms
-- **Memory**: 19 MB
+- **Memory**: 18.9 MB
 
 ---
 
