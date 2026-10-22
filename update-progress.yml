@@ -1,21 +1,28 @@
 
-name: Update DSA README Progress
+name: Refresh Dynamic DSA Dashboard
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
   schedule:
-    # Daily at 05:45 AM IST
     - cron: "15 0 * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: dynamic-dsa-dashboard
+  cancel-in-progress: false
+
 jobs:
-  update-progress:
+  refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    env:
+      LEETCODE_USERNAME: seYEfSEx0n
+      GITHUB_REPOSITORY: ${{ github.repository }}
 
     steps:
       - name: Checkout repository
@@ -26,17 +33,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Update README metrics
+      - name: Refresh README
         run: python scripts/update_readme.py
 
-      - name: Commit updated README
+      - name: Commit README changes
         run: |
           if ! git diff --quiet -- README.md; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore: update DSA README progress"
+            git commit -m "chore: refresh dynamic DSA dashboard"
             git push
           else
-            echo "No README changes to commit."
+            echo "README is already up to date."
           fi
