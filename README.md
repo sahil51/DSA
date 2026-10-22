@@ -3,7 +3,7 @@
   <img
     src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Sahil%27s%20DSA%20Journey&fontSize=36&fontColor=ffffff&fontAlignY=35"
     width="100%"
-    alt="Sahil's DSA Journey header"
+    alt="My DSA Journey header"
   />
 </p>
 
