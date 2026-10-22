@@ -1,7 +1,5 @@
-# ⚡ Sahil's DSA Journey
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Data%20Structures%20%26%20Algorithms&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" alt="DSA animated header"/>
+ <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Data%20Structures%20%26%20Algorithms&fontSize=34&fontColor=ffffff&fontAlignY=35" width="100%" alt="DSA animated header"/>
 </p>
 
 <p align="center">
