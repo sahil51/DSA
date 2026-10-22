@@ -1,0 +1,42 @@
+
+name: Update DSA README Progress
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    # Daily at 05:45 AM IST
+    - cron: "15 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update README metrics
+        run: python scripts/update_readme.py
+
+      - name: Commit updated README
+        run: |
+          if ! git diff --quiet -- README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update DSA README progress"
+            git push
+          else
+            echo "No README changes to commit."
+          fi
